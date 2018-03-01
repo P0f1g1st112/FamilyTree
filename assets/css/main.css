@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 /*
 	Hyperspace by HTML5 UP
@@ -1710,8 +1711,13 @@
 			text-decoration: none;
 		}
 
+		
 	h1 {
 		font-size: 2.75em;
+		color: #4fb04f;
+		font-family: Gloria Hallelujah;
+		font-size: 72px;
+		user-select: none;
 	}
 
 		h1.major {
@@ -1891,7 +1897,7 @@
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #161616 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -3747,7 +3753,7 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.40);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3771,14 +3777,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #adffa5;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #adffa5, #844306);
+				background-image: -webkit-linear-gradient(to right, #adffa5, #844306);
+				background-image: -ms-linear-gradient(to right, #adffa5, #844306);
+				background-image: linear-gradient(to right, #adffa5, #844306);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3867,7 +3873,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #844306;
 						}
 
 		}
@@ -3894,6 +3900,8 @@
 
 		#intro p {
 			font-size: 1.25em;
+			font-family: arial;
+			color: #161616;
 		}
 
 			@media screen and (max-width: 980px) {
