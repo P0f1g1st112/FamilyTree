@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 /*
 	Hyperspace by HTML5 UP
@@ -1715,7 +1715,7 @@
 	h1 {
 		font-size: 2.75em;
 		color: #4fb04f;
-		font-family: Gloria Hallelujah;
+		font-family: Poppins;
 		font-size: 72px;
 		user-select: none;
 	}
