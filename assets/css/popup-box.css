@@ -2,7 +2,7 @@
 #small-dialog,#small-dialog2,#small-dialog1{
 	background: #ffffff;
 	text-align: left;
-	max-width: 400px;
+	max-width: 550px;
 	margin: 40px auto;
 	position: relative; 
 }
@@ -273,6 +273,7 @@ button::-moz-focus-inner {
 .mfp-close-btn-in .mfp-close {
   color: #333333; 
   background: none;
+  border: none;
   }
 
 .mfp-image-holder .mfp-close,
@@ -317,7 +318,7 @@ button::-moz-focus-inner {
 	margin: 10px 10px;
 	outline: none;
 	font-size: 18px;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	width: 17%;	
 	-webkit-appearance: none;

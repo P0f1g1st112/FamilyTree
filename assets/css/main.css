@@ -1676,7 +1676,7 @@
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		outline: none;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2510,27 +2510,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: #000000 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: #000000 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: #000000 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: #000000 !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: #000000 !important;
 		opacity: 1.0;
 	}
 
@@ -3553,7 +3553,7 @@
 		text-align: center;
 		top: 0;
 		width: 18em;
-		z-index: 10000;
+		z-index: 1;
 	}
 
 		#sidebar > .inner {
@@ -3943,7 +3943,7 @@
     right: 50px;
     top: 50px;
     position: fixed;
-    z-index: 99999;
+    z-index: 10;
 }
 .register-in {
 	display: inline-block;
@@ -3951,9 +3951,33 @@
 	font-size: 22px;
 	padding: 7px;
 }
-#link{
-	text-decoration: none;
-}
+
+@media screen and (max-width: 980px) {
+
+				.register-right {
+					top: 70px;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.register-right {
+					top: 70px;
+				}
+				.register-in {
+					font-size: 17px;
+				}
+
+			}
+
+		@media screen and (max-width: 1280px) {
+
+			.register-right {
+				top: 70px;
+			}
+
+		}
 
 
 
@@ -3989,10 +4013,10 @@ span.fa.fa-lock {
     outline: none;
     font-size: .9em;
     letter-spacing: 1px;
-    color: black;
+    color: black !important;
     padding: 1em 1em;
     margin: 0;
-    width: 92%;
+    width: 100%;
     margin-bottom: 1em;
     border: none;
     border: 1px solid rgb(101, 101, 101);
@@ -4003,12 +4027,11 @@ span.fa.fa-lock {
 }
 .login-form input[type="submit"] {
     font-size: 1em;
-    color: #ffffff;
-    background: #db3552;
-    border: 1px solid #db3552;
+    color: black;
+    background: #4fb04f;
+    border: 1px solid #4fb04f;
     outline: none;
     cursor: pointer;
-    padding: .8em 1em;
     letter-spacing: 1px;
     -webkit-appearance: none;
     width: 100%;
@@ -4025,8 +4048,9 @@ span.fa.fa-lock {
     font-family: 'Raleway', sans-serif;
 }
 .login-form input[type="submit"]:hover {
-    background: #384956;
-    border: 1px solid #384956;
+    background: #4fb04f;
+    border: 1px solid #4fb04f;
+    opacity: 0.8;
 }
 .login-agileits-bottom {
     margin-top: 1.6em;
