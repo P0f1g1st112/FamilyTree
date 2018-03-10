@@ -210,7 +210,7 @@ $(document).ready(function(){
 	var wid = document.documentElement.clientWidth;
 
 	$(document).scroll(function(){
-	if($(document).scrollTop() > 450){
+	if($(document).scrollTop() > 400){
 		$('.register-right').addClass ('fixed-block');
 		
 		
