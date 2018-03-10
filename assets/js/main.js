@@ -1,8 +1,3 @@
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -208,3 +203,29 @@
 	});
 
 })(jQuery);
+
+//Registration block
+$(document).ready(function(){
+
+	var wid = document.documentElement.clientWidth;
+
+	$(document).scroll(function(){
+	if($(document).scrollTop() > 450){
+		$('.register-right').addClass ('fixed-block');
+		
+		
+	}
+
+	else if( wid < 600 && $(document).scrollTop() > 70){
+		$('.register-right').addClass ('fixed-block');
+		
+		
+	}
+
+	else {
+		$('.register-right').removeClass ('fixed-block');
+			
+	}
+});
+    
+});

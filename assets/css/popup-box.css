@@ -266,6 +266,7 @@ button::-moz-focus-inner {
     font-style: normal;
     font-size: 45px;
     outline: none; 
+    border: none !important;
  }
   .mfp-close:hover, .mfp-close:focus {
     opacity: 1; }
@@ -273,7 +274,6 @@ button::-moz-focus-inner {
 .mfp-close-btn-in .mfp-close {
   color: #333333; 
   background: none;
-  border: none;
   }
 
 .mfp-image-holder .mfp-close,
