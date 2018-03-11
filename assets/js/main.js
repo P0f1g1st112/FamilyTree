@@ -216,7 +216,7 @@ $(document).ready(function(){
 		
 	}
 
-	else if( wid < 600 && $(document).scrollTop() > 70){
+	else if( wid < 600 && $(document).scrollTop() > 60){
 		$('.register-right').addClass ('fixed-block');
 		
 		
