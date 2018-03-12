@@ -4050,7 +4050,7 @@ span.fa.fa-lock {
 }
 .login-form input[type="submit"] {
     font-size: 1em;
-    color: black;
+    color: #ffffff !important;
     background: #4fb04f;
     border: 1px solid #4fb04f;
     outline: none;
